@@ -13,17 +13,42 @@ const menuData: Menu[] = [
     path: "/about",
     newTab: false,
   },
-  {
-    id: 33,
-    title: "Blog",
-    path: "/blog",
-    newTab: false,
-  },
+  // {
+  //   id: 33,
+  //   title: "Blog",
+  //   path: "/blog",
+  //   newTab: false,
+  // },
   {
     id: 3,
     title: "Support",
     path: "/contact",
     newTab: false,
+  },
+  {
+    id: 44,
+    title : "Products",
+    newTab: false,
+    submenu: [
+      {
+        id: 441,
+        title: "CliX",
+        path: "/",
+        newTab: false,
+      },
+      {
+        id: 442,
+        title: "OptiX",
+        path: "/",
+        newTab: false,
+      },
+      {
+        id: 443,
+        title: "TracX",
+        path: "/",
+        newTab: false,
+      },
+    ] 
   },
   {
     id: 4,

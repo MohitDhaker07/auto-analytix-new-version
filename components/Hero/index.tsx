@@ -18,7 +18,7 @@ const Hero = () => {
                 Curated by Industry Masters
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                Supply Chain Management | eCommerce | Customer Engagement |Automated | Preconfigured | Cost-effective | Real Time | Focused | Practical 
+                Supply Chain Management | eCommerce | Customer Engagement |Automated | Preconfigured |  
 
 
                 </p>
