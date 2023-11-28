@@ -1,6 +1,9 @@
+import { useState } from "react";
 import NewsLatterBox from "./NewsLatterBox";
 
+
 const Contact = () => {
+
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -18,7 +21,7 @@ const Contact = () => {
                 Our team will get back to you ASAP via email.
               </p>
               <form>
-                <div className="-mx-4 flex flex-wrap">
+                <div className="-mx-4 flex flex-wrap" >
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
