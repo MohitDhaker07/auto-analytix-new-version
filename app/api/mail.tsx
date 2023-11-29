@@ -19,9 +19,9 @@ export default async function handler(
       }: { name: string; email: string; message: string } = req.body;
       const msg = `Name: ${name}\r\n Email: ${email}\r\n Message: ${message}`;
       const data = {
-        to: "youremail@gmail.com",
-        from: "yoursendgridemail@test.com",
-        subject: `${name.toUpperCase()} sent you a message from Contact Form`,
+        to: "mohitd@auto-analytix.com",
+        from: "mohitd@auto-analytix.com",
+        subject: `${name.toUpperCase()} sent you a message `,
         text: `Email => ${email}`,
         html: msg.replace(/\r\n/g, "<br>"),
       };
